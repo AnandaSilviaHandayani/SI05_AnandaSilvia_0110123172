@@ -1,0 +1,83 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIZZA DELEVERY</title>
+</head>
+<body>
+<!-- INI OPENING -->
+<form action="HasilTugas1.html" method="post">
+    <fieldset>
+    <h3>Black Goose Bistro | Pizza-on-Demail</h3>
+    <P style="margin-top: -10;">Our 12" wood-fired pizzas are available for delevery. Built your custom pizza and we'll deliver it within an hour </P>
+
+    <!-- INI ISI DATA -->
+    <P>Your Information :</P>
+    <label for="Name :">Name: </label>
+    <input type="text" name="name" id="name">
+<br>
+<br>
+    <label for="Addres";">Addres :</label>
+    <input type="text" name="address" id="address">
+<br>
+<br>
+    <label for="Telephone Number">Telephone Number :</label>
+    <input type="number" name="Telephone Number" id="Telephone Number" max="12" required>
+<br/>
+<br>
+    <label for="Email">Email :</label>
+    <input type="email" name="email" id="email">
+<br>
+<br>
+    <label for="Delevery Intructions"> Delevery Intructions :</label>
+<br>
+    <textarea></textarea>
+<br>
+<!-- INI DESIGN PIZZA -->
+    <h4>Design Your Pizza :</h4>
+    <p style="margin-top: -20px;">Pizza Specs</p>
+
+  <p style="margin-bottom: -2 ;">Crust (Choose One):</p>
+  <input type="radio" value="Clasic White" id="cr" name="cr">
+  <label for="">Clasic White</label><br>
+  <input type="radio" value="multigrain" name="cr" id="cr">
+  <label for="">Multigrain </label> <br>
+  <input type="radio" id="cr" name="cr" value="Cheese-stuffed crust">
+  <label for="">Cheese-stuffed crust</label> <br>
+  <input type="radio" id="cr" name="cr" value="Gluten-Free">
+  <label for="">Gluten-Free</label>
+
+<!-- INI TOPING -->
+    <P style="margin-bottom: -2;">Toppings (Choose as many as you want):</P>
+    <input type="checkbox" id="tpg" name="tpg" value="Red Sauce">
+    <label for="">Red Sauce</label><br>
+    <input type="checkbox" id="tpg" name="tpg" value="WhiteSauce">
+    <label for="">White Sauce</label><br>
+    <input type="checkbox" id="tpg" name="tpg" value="Mozzarrella Cheese">
+    <label for="">Mozzarrella Cheese</label><br>
+    <input type="checkbox" id="tpg" name="tpg" value="Peperoni">
+    <label for="">Pepperoni</label><br>
+    <input type="checkbox" id="tpg" name="tpg" value="Mushrooms">
+    <label for="">Mushrooms</label><br>
+    <input type="checkbox" id="tpg" name="tpg" value="peppers">
+    <label for="">Peppers</label><br>
+    <input type="checkbox" id="tpg" name="tpg" value="Anchovies">
+    <label for="">Anchovies</label>
+<br>
+<br>
+
+<!-- INI ORDER NUMBER PIZZA -->
+<p style="margin-bottom: 5;">Number</p>
+<label for="pcs">How Many Pizzas : </label>
+<input type="number" min="1" max="6">
+
+<br>
+<br>
+<!-- INI BAGIAN SUBMIT -->
+
+    <input type="submit" name="submit" id="submit">
+    <input type="Reset" name="No" id="No">
+</form>
+</body>
+</fieldset>
+</html>
