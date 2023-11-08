@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5px;
+}
+.box {
+    height: 80px;
+    justify-content: space-around;
+    border: solid;
+}
+.box:nth-child(1){
+    width: 200px;
+    background-color: yellow;
+}
+.box:nth-child(2){
+    width: 1020px;
+    background-color: orange;
+}
+.hijau{
+    background-color: green;
+    border: solid;
+    width: 200px;
+    height: 530px;
+}
+.abu{
+    background-color: grey;
+    border: solid;
+    width: 805px;
+    height: 530px;
+}
+.biru{
+    background-color: blue;
+    border: solid;
+    width: 200px;
+    height: 530px;
+}
+
+.navy {
+    background-color: navy;
+    height: 80px;
+    width: 100%;
+    border: solid;
+}
