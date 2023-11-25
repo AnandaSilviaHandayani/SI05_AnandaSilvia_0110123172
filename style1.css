@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;   
+}
+.logo {
+    width: 5rem;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li {
+    margin: 0 1rem;
+}
+.container h3{
+    margin-left: 20px;
+}
