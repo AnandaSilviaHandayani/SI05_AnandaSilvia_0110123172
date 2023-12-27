@@ -6,24 +6,31 @@
     <title>Image Picker</title>
     <script>
         function image_picker(){
-            const list_image = ["ayam.jpeg", "ikan.jpeg", "kucing.jpeg"];
+            const list_image = ["ayam.jpeg", "ikan.jpeg", "kucing.jpeg", "panda.jpeg", "penguin.jpeg"];
             let pilihan = document.getElementById("opsi").value;
 
             if( pilihan == "ayam" ){
-                let select = list_image[0]; //singa.png
+                let select = list_image[0];
                 document.getElementById("gambar").src = `images/${select}`;
             }
 
             if( pilihan == "ikan"){
-                let select = list_image[1]; //pagem.png
+                let select = list_image[1];
                 document.getElementById("gambar").src = `images/${select}`;
             }
 
             if( pilihan == "kucing"){
-                let select = list_image[2]; //kelinci.png
+                let select = list_image[2];
                 document.getElementById("gambar").src = `images/${select}`;
             }
-            
+            if( pilihan == "panda"){
+                let select = list_image[3];
+                document.getElementById("gambar").src = `images/${select}`;
+            }
+            if( pilihan == "penguin"){
+                let select = list_image[4];
+                document.getElementById("gambar").src = `images/${select}`;
+            }
 
         }
     </script>
@@ -36,6 +43,8 @@
         <option value="ayam"> Ayam </option>
         <option value="ikan"> Ikan </option>
         <option value="kucing"> Kucing </option>
+        <option value="panda"> Panda </option>
+        <option value="penguin"> Penguin </option>
     </select>
 
     <div class="container">
